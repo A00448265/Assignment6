@@ -30,5 +30,5 @@ print(f"{num:,}")
 
 num = round(average_price,2)
 num = f"{num:,}"
-val = str(num) + currency
+val = str(num) + " " + currency
 st.markdown("<h4 style='text-align: center; color: black;'>Average Price during this time was " + val + " </h1>", unsafe_allow_html=True)
